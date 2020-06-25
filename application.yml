@@ -11,7 +11,7 @@ spring:
     platform: postgres
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: '{cipher}6890e982e21dd2420c0bda1a650ff5ee9b637a205c56295c0e0b3213830e247e'
+    password: '{cipher}d9a7e32dadf04cc84cd11e21faf41d43a6e3690e2305fb9f9e7c646af719c818'
     driver-class-name: com.mysql.jdbc.Driver
 
 server:
