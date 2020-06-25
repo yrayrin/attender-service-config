@@ -12,6 +12,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: '{cipher}6890e982e21dd2420c0bda1a650ff5ee9b637a205c56295c0e0b3213830e247e'
+    driver-class-name: com.mysql.jdbc.Driver
 
 server:
   port: 8084
