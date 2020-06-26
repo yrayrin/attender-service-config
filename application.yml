@@ -1,5 +1,13 @@
-datasource:
-  db:
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+
+  datasource:
+    platform: postgres
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: '{cipher}d9a7e32dadf04cc84cd11e21faf41d43a6e3690e2305fb9f9e7c646af719c818'
